@@ -140,7 +140,7 @@ KeyChain::Locator KeyChain::s_defaultTpmLocator;
 //
 
 KeyChain::KeyChain()
-  : KeyChain(getDefaultPibLocator(), getDefaultTpmLocator(), true)
+  : KeyChain("pib-dummy", "tpm-dummy", true)
 {
 }
 
